@@ -58,3 +58,8 @@ argocd-operator:
     enabled: true
     prometheus:
       version: prometheusoperator.0.32.0
+
+sealed-secrets:
+  securityContext:
+    runAsUser: ''
+    fsGroup: ''
